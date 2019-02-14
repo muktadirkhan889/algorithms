@@ -11,9 +11,7 @@ One is q * m other is (m * (q + 1)) or (m * (q – 1)) depending on whether one 
 */
 
 
-// C++ implementation to find the number closest to n and divisible by m 
 #include <bits/stdc++.h> 
-
 using namespace std; 
 
 // function to find the number closest to n 
@@ -37,7 +35,6 @@ int closestNumber(int n, int m)
 	return n2;	 
 } 
 
-// Driver program to test above 
 int main() 
 { 
 	int n = 13, m = 4; 
